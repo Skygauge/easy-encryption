@@ -17,6 +17,7 @@ std::string sanitize_utf8(std::string& str)
 {
     int i,f_size=str.size();
     unsigned char c,c2,c3,c4;
+    c2 = '0';
     string to;
     to.reserve(f_size);
 
